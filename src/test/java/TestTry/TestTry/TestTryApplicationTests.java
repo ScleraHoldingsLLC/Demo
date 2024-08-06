@@ -17,7 +17,7 @@ class TestTryApplicationTests {
 
 	@Test
 	public void testGetMessage() {
-		String expectedMessage = "Hello, Spring Boot!";
+		String expectedMessage = "Hello,world!";
 		String actualMessage = testService.getMessage();
 		assertEquals(expectedMessage, actualMessage);
 	}
