@@ -8,7 +8,7 @@ public class TestTryApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(TestTryApplication.class, args)
+		SpringApplication.run(TestTryApplication.class, args);
 	}
 
 }
